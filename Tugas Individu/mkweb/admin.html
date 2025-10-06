@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Administrator</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 20px;
+    }
+
+    #main {
+      flex: 1;
+      display: flex;
+    }
+
+    nav {
+      width: 200px;
+      background: #34495e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+      margin: 5px 0;
+      background: #3d566e;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #1abc9c;
+    }
+
+    section {
+      flex: 1;
+      padding: 20px;
+      background: #ecf0f1;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Halaman Administrator
+  </header>
+
+  <div id="main">
+    <nav>
+      <a href="#">Data User</a>
+      <a href="#">Kelola Produk</a>
+      <a href="#">Edit Password</a>
+      <a href="#">Logout</a>
+    </nav>
+
+    <section>
+      <h2>Selamat datang di Dashboard Admin</h2>
+      <p>Silakan pilih menu di samping untuk mengelola data.</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 - marsellweb
+  </footer>
+
+</body>
+</html>

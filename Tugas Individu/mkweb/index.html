@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>marsellweb</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    #header {
+      background: #eb8bc6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 20px;
+    }
+
+    #main {
+      flex: 1;
+      display: flex;
+    }
+
+    #l-side {
+      width: 25%;
+      background: #f2f2f2;
+      padding: 15px;
+    }
+
+    #content {
+      flex: 1;
+      background: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    #r-side {
+      width: 25%;
+      background: #f9f9f9;
+      padding: 15px;
+    }
+
+    #footer {
+      width: 100%;
+      background: #ddd;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      margin-top: auto;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #eb8bc6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">header</div>
+
+  <div id="main">
+    <div id="l-side">populer</div>
+    <div id="content">
+      <h2>Halaman Utama</h2>
+      <p>Selamat datang di website ini!</p>
+      <a href="registrasi.html">Ke Halaman Registrasi</a>
+    </div>
+    <div id="r-side">advertise</div>
+  </div>
+
+  <div id="footer">footer</div>
+</body>
+</html>
